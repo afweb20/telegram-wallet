@@ -6,3 +6,48 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.container {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
+  @media (min-width: 1400px) {
+    max-width: 1320px;
+  }
+}
+
+.section {
+  min-height: 100vh;
+  &-hello {
+    background-color: #cddafd;
+  }
+  &-services {
+    background-color: #f0efeb;
+  }
+}
+
+.thx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.thx h2 {
+  font-size: 4rem;
+  display: inline-block;
+  text-align: center;
+}
