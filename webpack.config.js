@@ -28,12 +28,12 @@ module.exports = {
         ],
       },
       {
-        test: /\.(?:ico|gif|png|jpg|jpeg|svg)$/i,
+        test: /\.(?:ico|gif|png|jpg|jpeg|svg|mp4|mov)$/i,
         type: "asset/resource"
       },
       {
         test: /\.html$/i,
-        loader: "html-loader",
+        loader: "html-loader"
       },
     ]
   },
