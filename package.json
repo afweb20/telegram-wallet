@@ -14,6 +14,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.3",
     "css-loader": "^6.7.2",
     "eslint": "^8.36.0",
     "favicons": "^7.0.2",

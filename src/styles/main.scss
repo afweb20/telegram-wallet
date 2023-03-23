@@ -1,38 +1,23 @@
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@import "./bootstrap";
 @import "../fonts/fonts";
+
+* {
+  box-sizing: border-box;
+}
 
 html,
 body {
   font-family: "Manrope", sans-serif;
+  font-weight: 400;
   margin: 0;
   padding: 0;
 }
 
-.container {
-  position: relative;
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 0 16px;
-  @media (min-width: 576px) {
-    max-width: 540px;
-  }
-  @media (min-width: 768px) {
-    max-width: 720px;
-  }
-  @media (min-width: 992px) {
-    max-width: 960px;
-  }
-  @media (min-width: 1200px) {
-    max-width: 1140px;
-  }
-  @media (min-width: 1400px) {
-    max-width: 1320px;
-  }
-}
-
 .section {
-  min-height: 100vh;
+  height: 100vh;
   &-hello {
-    background-color: #cddafd;
+    background-image: linear-gradient(to right top, #f72585, #e157c0, #b77feb, #829dff, #51b3ff, #40aef8, #2ba9f2, #00a4eb, #0086e3, #0066d5, #0042c1, #3a0ca3);
   }
   &-services {
     background-color: #f0efeb;
@@ -42,8 +27,9 @@ body {
 .thx {
   display: flex;
   align-items: center;
-  justify-content: center;
   height: 100vh;
+
+  justify-content: center;
 }
 
 .thx h2 {
