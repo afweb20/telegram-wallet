@@ -6,12 +6,12 @@ module.exports = {
   entry: "./src/telegramWallet.js",
   output: {
     filename: "main.js",
-    path: path.resolve(__dirname, "telegram-wallet"),
+    path: path.resolve(__dirname, "dist"),
     clean: true,
   },
   devServer: {
     static: {
-      directory: path.join(__dirname, "./telegram-wallet"),
+      directory: path.join(__dirname, "./dist"),
     },
     compress: true,
     hot: true,
