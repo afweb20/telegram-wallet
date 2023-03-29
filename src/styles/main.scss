@@ -1,6 +1,7 @@
 @import "bootstrap-icons/font/bootstrap-icons.css";
 @import "./bootstrap";
 @import "../fonts/fonts";
+@import "./waves";
 
 * {
   box-sizing: border-box;
@@ -17,23 +18,6 @@ body {
 .section {
   height: 100vh;
   &-hello {
-    background-image: linear-gradient(to right top, #f72585, #e157c0, #b77feb, #829dff, #51b3ff, #40aef8, #2ba9f2, #00a4eb, #0086e3, #0066d5, #0042c1, #3a0ca3);
+    position: relative;
   }
-  &-services {
-    background-color: #f0efeb;
-  }
-}
-
-.thx {
-  display: flex;
-  align-items: center;
-  height: 100vh;
-
-  justify-content: center;
-}
-
-.thx h2 {
-  font-size: 4rem;
-  display: inline-block;
-  text-align: center;
 }
