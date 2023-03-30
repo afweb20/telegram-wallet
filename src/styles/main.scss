@@ -1,7 +1,6 @@
 @import "bootstrap-icons/font/bootstrap-icons.css";
 @import "./bootstrap";
 @import "../fonts/fonts";
-@import "./waves";
 
 * {
   box-sizing: border-box;
@@ -15,21 +14,10 @@ body {
   padding: 0;
 }
 
-.section {
-  min-height: 100vh;
-  &-hello {
-    position: relative;
-  }
+.container {
+  max-width: 1140px;
 }
 
-.gradient-icon {
-  i {
-    font-size: 56px;
-    line-height: 1;
-    background: -webkit-gradient(linear,left top,right top,from(#6541c1),color-stop(98%,#d43396),to(#d43396));
-    background: linear-gradient(to right,#6541c1 0%,#d43396 98%,#d43396 100%);
-    -webkit-background-clip: text;
-
-    -webkit-text-fill-color: transparent;
-  }
+.logo-telegram {
+  width: 64px;
 }
