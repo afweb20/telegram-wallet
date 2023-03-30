@@ -21,3 +21,13 @@ body {
 .logo-telegram {
   width: 64px;
 }
+
+.section-hello{
+  &-text {
+    @media (max-width: 991px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
