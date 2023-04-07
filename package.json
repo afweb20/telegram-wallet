@@ -34,6 +34,11 @@
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
-    "jquery": "^3.6.4"
+    "@uppy/core": "^3.1.2",
+    "@uppy/dashboard": "^3.3.2",
+    "@uppy/webcam": "^3.3.0",
+    "@zappar/video-recorder": "^1.0.1",
+    "jquery": "^3.6.4",
+    "videojs-record": "^4.6.0"
   }
 }

@@ -19,49 +19,6 @@
     <div class="row">
       <div class="col-12">
 
-        <div id="container">
-          <h1>Video Recorder</h1>
-          <p>This page allows you to record video from your camera and save it in mp4/h.264 format. At the moment it is intended to work
-            for Chrome, Firefox and Microsoft Edge. Note: there is no limit for the amount of time you record. Everything is leveraged
-            by the web browser. No plugins are required.</p>
-          <p>Note: this video recorder works properly with the latest versions of Chrome, Firefox and Microsoft Edge. Internet Explorer
-            11 does not support WebRTC, hence this demo will not work there.
-            <a href="https://html5test.com/compare/browser/ie-11/chrome-64/firefox/edge.html"
-              target="_blank">https://html5test.com/compare/browser/ie-11/chrome-64/firefox/edge.html</a>
-          </p>
-          <table>
-            <tr>
-              <td>
-                <label for="videoSource">Video Source
-                <select name="" id="videoSource"></select>
-              </label></td>
-              <td style="display:none;">
-                <label for="audioSource">Audio Source
-                  <select name="" id="audioSource"></select>
-                </label>
-              </td>
-              <td>
-            </tr>
-            
-           
-          </table>
-          <div id="videoMain">
-            <video muted autoplay id="videoContainer"></video>
-          </div>
-          <div id="videoPreview" style="display:none">
-            <input type="hidden" name="videoBitrate" id="videoBitrate" value="4000000">
-            <input type="hidden" name="audioBitrate" id="audioBitrate" value="320000">
-            <video controls id="recordedVideo"></video>
-            <button id="play" disabled>Play</button>
-          </div>
-          <div class="log"></div>
-      
-          <div>
-            <button id="record" disabled>Start Recording</button>
-            <button id="preview" disabled>See Recording</button>
-            <button id="download" disabled>Download</button>
-          </div>
-        </div>
 
       </div>
     </div>
